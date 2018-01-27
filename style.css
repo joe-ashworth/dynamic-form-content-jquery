@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Arial";
+}
+#container,
+.tools,
+.frame {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.group:after,
+.head:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cell {
+  float: left;
+  padding: 10px 5px;
+  margin: 3px;
+}
+.group {
+  margin-bottom: 6px;
+  background-color: #aaa;
+  border-radius: 10px;
+  padding: 0 0 5px 10px;
+}
+.white {
+  background: #00bfd5 url("http://www.visicare.com/images/w-lettering.png")
+    no-repeat right center;
+}
+.safety {
+  background: #47c710 url("http://www.visicare.com/images/s-lettering.png")
+    no-repeat right center;
+}
+.digital {
+  background: #db40aa url("http://www.visicare.com/images/d-lettering.png")
+    no-repeat right center;
+}
+input,
+select,
+button {
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+input[type="text"] {
+  padding: 10px;
+}
+input[name="dept"] {
+  width: 160px;
+}
+input[name="quantity"] {
+  width: 60px;
+  text-align: center;
+}
+button.delete-button {
+  background-color: #444;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  padding: 5px 9px 7px;
+  margin: 6px 0 0 4px;
+  border: none;
+}
+button.delete-button:hover {
+  background-color: red;
+}
