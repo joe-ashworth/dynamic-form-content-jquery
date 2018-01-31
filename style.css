@@ -1,15 +1,12 @@
 * {
   box-sizing: border-box;
-  font-family: "Arial";
+  font-family: "Arial", sans-serif;
 }
-#container,
-.tools,
-.frame {
-  max-width: 1400px;
+#container, .tools, .frame {
+  max-width: 1200px;
   margin: 0 auto;
 }
-.group:after,
-.head:after {
+.group:after, .head:after {
   content: "";
   display: table;
   clear: both;
@@ -26,20 +23,15 @@
   padding: 0 0 5px 10px;
 }
 .white {
-  background: #00bfd5 url("http://www.visicare.com/images/w-lettering.png")
-    no-repeat right center;
+  background: #00bfd5 url("http://www.visicare.com/images/w-lettering.png") no-repeat right center;
 }
 .safety {
-  background: #47c710 url("http://www.visicare.com/images/s-lettering.png")
-    no-repeat right center;
+  background: #47c710 url("http://www.visicare.com/images/s-lettering.png") no-repeat right center;
 }
 .digital {
-  background: #db40aa url("http://www.visicare.com/images/d-lettering.png")
-    no-repeat right center;
+  background: #db40aa url("http://www.visicare.com/images/d-lettering.png") no-repeat right center;
 }
-input,
-select,
-button {
+input, select, button {
   padding: 10px;
   box-sizing: border-box;
   font-size: 16px;
